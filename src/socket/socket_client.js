@@ -68,6 +68,7 @@ class SocketClient {
         break
       default:
         throw new Error(`invalid protocol: [${protocol}]`)
+    }
   }
 
   response(msg) {
