@@ -1,15 +1,15 @@
 const servers = {
   tcp: {
-    protocol: 'tcp', port: '50001', host: 'fortress.qtornado.com',
+    protocol: 'tcp', port: '50001', host: 'explorer.canadaecoin.ca',
   },
   ssl: {
-    protocol: 'ssl', port: '50002', host: 'fortress.qtornado.com',
+    protocol: 'ssl', port: '50002', host: 'explorer.canadaecoin.ca',
   },
   ws: {
-    protocol: 'ws', port: '50003', host: 'electrumx-server.tbtc.svc.cluster.local',
+    protocol: 'ws', port: '50003', host: 'explorer.canadaecoin.ca',
   },
   wss: {
-    protocol: 'wss', port: '50004', host: 'electrumx-server.tbtc.svc.cluster.local',
+    protocol: 'wss', port: '50004', host: 'explorer.canadaecoin.ca',
   },
 }
 

@@ -1,7 +1,7 @@
 const ElectrumClient = require('..')
 
 const config = {
-  host: 'fortress.qtornado.com',
+  host: 'explorer.canadaecoin.ca',
   port: 50002,
   protocol: 'ssl',
 }

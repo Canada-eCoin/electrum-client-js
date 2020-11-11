@@ -11,27 +11,21 @@ Implements methods described in [Electrum Protocol methods] documentation.
 
 Subscriptions and notifications are also supported, please see [example](example/subscribe.js).
 
-## Continuous Integration
-
-Latest [CircleCI](.circleci/) build status:
-
-[![CircleCI](https://circleci.com/gh/keep-network/electrum-client-js.svg?style=svg)](https://circleci.com/gh/keep-network/electrum-client-js)
-
 
 ## Install
 
 ```
-npm install --save @keep-network/electrum-client-js
+npm install --save github:Canada-eCoin/electrum-client-js
 ```
 
 ## Usage
 
 ```js
-const ElectrumClient = require('@keep-network/electrum-client-js')
+const ElectrumClient = require('@eCoinCore/electrum-client-js')
 
 async function main() {
   const client = new ElectrumClient(
-    'fortress.qtornado.com',
+    'explorer.canadaecoin.ca',
     50002,
     'ssl'
   )
