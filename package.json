@@ -1,5 +1,5 @@
 {
-  "name": "eCoinCore/electrum-client-js",
+  "name": "@eCoinCore/electrum-client-js",
   "version": "0.1.0",
   "description": "Electrum protocol client for node.js and browser",
   "main": "index.js",
